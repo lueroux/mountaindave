@@ -1,0 +1,191 @@
+{
+    "system_colors": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "color": "#62C03A"
+        },
+        {
+            "_id": "primary_hover",
+            "title": "Primary Hover",
+            "color": "#57AC34"
+        },
+        {
+            "_id": "text",
+            "title": "Text",
+            "color": "#094D52"
+        },
+        {
+            "_id": "text_light",
+            "title": "Text light",
+            "color": "#6E8284"
+        },
+        {
+            "_id": "accent",
+            "title": "Accent",
+            "color": "#000000"
+        },
+        {
+            "_id": "border",
+            "title": "Border",
+            "color": "#DCDBD1"
+        },
+        {
+            "_id": "background",
+            "title": "Background",
+            "color": "#FFFEF0"
+        },
+        {
+            "_id": "background_light",
+            "title": "Background Light",
+            "color": "#F3F5FA"
+        }
+    ],
+    "custom_colors": [],
+    "system_typography": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "typography_typography": "custom"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary",
+            "typography_typography": "custom"
+        },
+        {
+            "_id": "accent",
+            "title": "Accent",
+            "typography_typography": "custom"
+        },
+        {
+            "_id": "text",
+            "title": "Text",
+            "typography_typography": "custom"
+        },
+        {
+            "_id": "heading_title",
+            "title": "Heading Title",
+            "typography_typography": "custom",
+            "typography_font_family": "Big Shoulders Display",
+            "typography_font_weight": "800",
+            "typography_font_size": {
+                "unit": "px",
+                "size": 70,
+                "sizes": []
+            },
+            "typography_line_height": {
+                "unit": "em",
+                "size": 1,
+                "sizes": []
+            },
+            "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 46,
+                "sizes": []
+            },
+            "typography_line_height_mobile": {
+                "unit": "px",
+                "size": "",
+                "sizes": []
+            },
+            "typography_text_transform": "uppercase",
+            "typography_font_size_tablet_extra": {
+                "unit": "px",
+                "size": 56,
+                "sizes": []
+            },
+            "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 48,
+                "sizes": []
+            }
+        }
+    ],
+    "custom_typography": [
+        {
+            "_id": "fb806da",
+            "title": "Sub Title",
+            "typography_typography": "custom",
+            "typography_font_size": {
+                "unit": "px",
+                "size": 40,
+                "sizes": []
+            },
+            "typography_text_transform": "lowercase",
+            "typography_line_height": {
+                "unit": "em",
+                "size": 1,
+                "sizes": []
+            },
+            "typography_font_family": "Hiatus",
+            "typography_font_weight": "400",
+            "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 36,
+                "sizes": []
+            }
+        },
+        {
+            "_id": "8671f8c",
+            "title": "Lead Title",
+            "typography_typography": "custom",
+            "typography_font_size": {
+                "unit": "px",
+                "size": 18,
+                "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+                "unit": "em",
+                "size": 1.560000000000000053290705182007513940334320068359375,
+                "sizes": []
+            }
+        }
+    ],
+    "default_generic_fonts": "Sans-serif",
+    "site_name": "Zipli",
+    "site_description": "Outdoor Adventures",
+    "page_title_selector": "h1.entry-title",
+    "activeItemIndex": 1,
+    "active_breakpoints": [
+        "viewport_mobile",
+        "viewport_mobile_extra",
+        "viewport_tablet",
+        "viewport_tablet_extra",
+        "viewport_laptop"
+    ],
+    "viewport_md": 768,
+    "viewport_lg": 1025,
+    "container_width": {
+        "unit": "px",
+        "size": 1290,
+        "sizes": []
+    },
+    "space_between_widgets": {
+        "column": "0",
+        "row": "0",
+        "isLinked": true,
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+    },
+    "colors_enable_styleguide_preview": "yes",
+    "typography_enable_styleguide_preview": "yes",
+    "site_logo": {
+        "url": "https:\/\/demo2wpopal.b-cdn.net\/zipli\/wp-content\/uploads\/2024\/10\/logo.svg",
+        "id": 124,
+        "size": "",
+        "alt": "",
+        "source": "library"
+    },
+    "body_background_background": "classic",
+    "body_background_image": {
+        "url": "https:\/\/demo2wpopal.b-cdn.net\/zipli\/wp-content\/uploads\/2024\/10\/bg.png",
+        "id": 5383,
+        "size": "",
+        "alt": "",
+        "source": "library"
+    },
+    "body_background_repeat": "repeat"
+}

@@ -1,0 +1,59 @@
+.customize-control-zipli-button-switch .zipli-switch {
+    display: none; }
+.customize-control-zipli-button-switch .zipli-switch, .customize-control-zipli-button-switch .zipli-switch:after, .customize-control-zipli-button-switch .zipli-switch:before,
+.customize-control-zipli-button-switch .zipli-switch *,
+.customize-control-zipli-button-switch .zipli-switch *:after,
+.customize-control-zipli-button-switch .zipli-switch *:before,
+.customize-control-zipli-button-switch .zipli-switch + .zipli-switch-btn {
+    box-sizing: border-box; }
+.customize-control-zipli-button-switch .zipli-switch::selection, .customize-control-zipli-button-switch .zipli-switch:after::selection, .customize-control-zipli-button-switch .zipli-switch:before::selection,
+.customize-control-zipli-button-switch .zipli-switch *::selection,
+.customize-control-zipli-button-switch .zipli-switch *:after::selection,
+.customize-control-zipli-button-switch .zipli-switch *:before::selection,
+.customize-control-zipli-button-switch .zipli-switch + .zipli-switch-btn::selection {
+    background: none; }
+.customize-control-zipli-button-switch .zipli-switch + .zipli-switch-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none; }
+.customize-control-zipli-button-switch .zipli-switch + .zipli-switch-btn:after, .customize-control-zipli-button-switch .zipli-switch + .zipli-switch-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%; }
+.customize-control-zipli-button-switch .zipli-switch + .zipli-switch-btn:after {
+    left: 0; }
+.customize-control-zipli-button-switch .zipli-switch + .zipli-switch-btn:before {
+    display: none; }
+.customize-control-zipli-button-switch .zipli-switch:checked + .zipli-switch-btn:after {
+    left: 50%; }
+
+.customize-control-zipli-button-switch .zipli-switch-ios + .zipli-switch-btn {
+    background: #ddd;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all .4s ease;
+    border: 1px solid #e8eae9; }
+.customize-control-zipli-button-switch .zipli-switch-ios + .zipli-switch-btn:after {
+    border-radius: 2em;
+    background: #fbfbfb;
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08); }
+.customize-control-zipli-button-switch .zipli-switch-ios + .zipli-switch-btn:hover:after {
+    will-change: padding; }
+.customize-control-zipli-button-switch .zipli-switch-ios + .zipli-switch-btn:active {
+    box-shadow: inset 0 0 0 2em #e8eae9; }
+.customize-control-zipli-button-switch .zipli-switch-ios + .zipli-switch-btn:active:after {
+    padding-right: .8em; }
+
+.customize-control-zipli-button-switch .zipli-switch-ios:checked + .zipli-switch-btn {
+    background: #0085ba; }
+.customize-control-zipli-button-switch .zipli-switch-ios:checked + .zipli-switch-btn:active {
+    box-shadow: none; }
+.customize-control-zipli-button-switch .zipli-switch-ios:checked + .zipli-switch-btn:active:after {
+    margin-left: -.8em; }
